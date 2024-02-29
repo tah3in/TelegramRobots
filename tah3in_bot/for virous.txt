@@ -1,0 +1,10 @@
+look to project tah3in_bot telegram
+
+If you delete the exit command of Auto_execution.py 
+
+user cant close of taskmanager script python because It opens every time
+
+and you can with a file (foo.sh in startup) open Auto_execution.py
+
+And this file can keep anything open forever
+
