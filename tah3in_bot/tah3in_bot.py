@@ -33,7 +33,7 @@ def Users_desktop_address():
 global gl_username
 # Define a dictionary to store usernames and passwords (replace with your actual credentials)
 user_credentials = {
-    "tah3in": "2000",
+    "user1": "123456",
     "user2": "password2",
     # Add more usernames and passwords as needed
 }
@@ -53,9 +53,9 @@ def start(message):
         user_states[message.chat.id] = 'waiting_for_username'
 
 
-@bot.message_handler(commands=['Tah3in_deutsch_bot'])
+@bot.message_handler(commands=['deutsch_bot'])
 def start(message):
-    command = r"python D:\TelegramBot\tah3in_deutsch_bot\Auto_execution.py"
+    command = r"python D:\TelegramBot\deutsch_bot\Auto_execution.py"
     subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
 @bot.message_handler(commands=['Shutdown'])
